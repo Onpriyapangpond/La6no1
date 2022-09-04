@@ -1,0 +1,23 @@
+<html>
+    <head>
+       <script>
+            function cal(){
+                var ainput = document.getElementById("A").value;
+                var binput = document.getElementById("B").value;
+                var n1 = parseInt(ainput);
+                var n2 = parseInt(binput);   
+                
+                var text= document.getElementById("C");
+                 text.value=n1+n2;
+
+                 
+            }
+       </script>
+    </head>
+    <body>
+        <input type="text" id="A" > +
+        <input type="text" id="B" > =
+        <input type="text" id="C" > 
+        <input type="button" value="Go Go"  onclick="cal()">
+    </body>
+</html>
